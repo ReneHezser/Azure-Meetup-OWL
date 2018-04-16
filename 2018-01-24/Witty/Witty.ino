@@ -1,6 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <AzureIoTHubMQTTClient.h>
+// requires libraries via Arduino Library Manager: Time, NTPClientLib, AzureIoTHubMQTTClient
 
 const char *AP_SSID = "[YOUR_SSID_NAME]";
 const char *AP_PASS = "[YOUR_SSID_PASS]";
